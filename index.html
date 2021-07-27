@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job application Form</title>
+<style>
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #CD853F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #F4A460;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #FDF5E6;
+  padding: 20px;
+}
+</style>
+<body>
+
+<center><h1 style="font-size:50px"> Job Application Form</h1></center>
+
+<div><center>
+  <form>
+    <h1>Personal Details</h1>
+                
+                    
+                <label for="name" style="font-size: 20px;">First name:</label>
+                <input type="text" id="fname" name="name" placeholder="Enter Name" required=""><br><br>
+                
+                <label for="lname" style="font-size: 20px;">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required=""><br><br>
+                
+
+              <label for="fname" style="font-size: 20px; ">Father's Name:</label>
+              <input type="text" name="" id="fname" placeholder="Enter Father's Name" required><br><br>
+
+              <label for="mname" style="font-size: 20px; ">Mother's Name:</label>
+              <input type="text" name="" id="mname" placeholder="Enter Mother's Name" required><br><br>
+
+              <label for="number" style="font-size: 20px; ">Contact Number:</label>
+              <input type="tel" name="" id="" placeholder="Enter your contact Number" required> <br><br>
+
+              <label for="email" style="font-size: 20px; ">Email-id:</label>
+              <input type="email" name="" id="" placeholder="Enter your Email-id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter valid format eg abc@exapmple.com"> <br><br>
+
+              <label for="password" style="font-size: 20px; ">Password:</label>
+              <input type="password" name="" id="" placeholder="Enter password" required> <br><br>
+
+              <label for="address" style="font-size: 20px; ">Address:</label>
+                  <textarea name="" id="" cols="40" rows="5" placeholder="Address"></textarea><br><br>
+
+              <label for="city" style="font-size: 20px; ">City:</label>
+              <input type="text" name="" id="mname" placeholder="Enter City" required><br><br>
+
+              <label for="state" style="font-size: 20px;">State:</label>
+              <input type="text" name="" id="mname" placeholder="Enter State" required><br><br>
+              
+
+              <label for="gender" style="font-size: 20px; ">Gender:</label><br>
+              <label for="male" style="font-size: 20px; ">Male</label>
+              <input type="radio" name="gen" id="male" value="m">
+              <label for="female" style="font-size: 20px; ">Female</label>
+              <input type="radio" name="gen" id="female" value="f">
+              <label for="other" style="font-size: 20px; ">Other</label>
+              <input type="radio" name="gen" id="other" value="o"> <br><br>
+
+              <h1>Educational Details</h1>
+              <label for="name" style="font-size: 20px; ">Qualification:</label>
+                <select name="sub" id="">
+              <option value="" disabled selected>Select Qualification</option>
+              <option value="mt">Bsc</option>
+              <option value="bt">BTech</option>
+              <option value="ba">B.A</option>
+              <option value="mca">MCA</option>
+            </select><br> <br>
+
+              <label for="ins" style="font-size: 20px; ">Institute Name:</label>
+              <input type="text" name="" id="ins" placeholder="Institue" required><br><br>
+
+              <label for="cgpa" style="font-size: 20px; ">Current CGPA:</label>
+              <input type="number" name="" id="cgpa" placeholder="Enter CGPA"><br><br>
+
+
+              <label for="year" style="font-size: 20px;">Year of passing:</label>
+              <select name="sub" id="">
+              <option value="" disabled selected>Select Year</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+            </select><br><br>
+
+            <label for="skills" style="font-size: 20px; ">Skills:</label>
+            <textarea name="" id="" cols="40" rows="5" placeholder="Your skills"></textarea><br><br>
+
+            <h1>Upload Resume</h1>
+            <label for="myfile" style="font-size: 20px; ">Select files:</label>
+            <input type="file" id="myfile" name="myfile" multiple><br><br>
+                       
+            <input type="submit" id="button">
+  </form></center>
+</div>
+
+</body>
+</html>
